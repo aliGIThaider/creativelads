@@ -1,0 +1,138 @@
+/**
+
+Theme Name: CreativeLads 
+Author: Umer, Ali, Nouman
+Version: 1.1.0
+Description: CMS Project Theme Simple Theme Designed For Project Purpose
+
+
+**/
+
+
+header{
+
+	background:black;
+	padding: 1rem 0;
+	box-shadow: 0px 0px 20px rgba(0,0,0,0.25);
+
+
+
+}
+
+.page-wrap{
+	padding: 2rem 0;
+}
+
+header .top-bar{
+
+	list-style-type: none;
+	margin: -35px 0 0 0px ;
+	padding: 0;
+	display: flex;
+	float: right;
+	font-weight: bold;
+
+}
+
+
+header .top-bar li a{
+
+		padding: .25rem 1rem;
+		color: white;
+		font-size: 18px;
+
+}
+
+
+header .top-bar li a:hover{
+
+		color: white;
+		text-decoration: underline;
+		text-decoration-color: red;
+
+}
+
+
+header .top-bar li{
+
+	position: relative;
+}
+
+
+header .top-bar li .sub-menu{
+
+	display: none;
+	position: absolute;
+	z-index: 999;
+	top: 100%;
+	left: 0;
+	background: black;
+	box-shadow: 1px 1px 10px rgba(0,0,0,0.1);
+	list-style-type: none;
+	width: 130px;
+
+	padding: 0;
+	
+	border-radius: .5rem;
+}
+
+
+header .top-bar > .menu-item-has-children:hover > .sub-menu{
+
+	display: block;
+}
+
+
+header .top-bar .sub-menu .menu-item-has-children:hover > .sub-menu{
+
+	display: block;
+}
+
+
+
+header .top-bar .sub-menu li .sub-menu{
+
+	top: 0;
+	left: 100%;
+}
+
+
+h3{
+
+	padding-left: 20px;
+}
+
+
+.widget{
+	list-style-type: none;
+	margin: 0;
+	padding:0;
+	text-decoration: none;
+	
+}
+
+
+
+
+footer{
+	
+	margin-top: 20px;
+	color: black;
+	background:#E62C91;
+	padding: 1rem 0;
+	box-shadow: 0px 0px 20px rgba(0,0,0,0.25);
+	text-align: center;
+
+}
+
+footer a{
+
+	font-weight: bold;
+	color: black;
+}
+
+footer a:hover{
+
+	color: white;
+	
+}
